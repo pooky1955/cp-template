@@ -1,17 +1,17 @@
 # C++ CodeForces Competitive Programming Template
-### Usage
+## Usage
 This repository is a cookiecutter template that you can use locally with
 ```sh
 cookiecutter gh:pooky1955/cp-template
 ```
-#### Features
+## Features
 - Checks submissions against custom test case using `validate_auto.sh`
 - Auto-generates boilerplate code for **C++** (view below)
 - Runs submission in one line using `validate.sh`
 - Simple installation using `cookiecutter gh:pooky1955/cp-template`
 - Dynamic naming when using template, (i. e. leetcode/invert-binary-tree) or (codeforces/4a-watermelon)
 
-### Description
+## Description
 Currently, it's built using **C++** and includes the following the starter code
 ```cpp
 // Submission code for question {{cookiecutter.question_id}} from {{cookiecutter.question_source}}
