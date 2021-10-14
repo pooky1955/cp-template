@@ -1,3 +1,3 @@
 #!/usr/bin/bash
-g++ submission submission_{{cookiecutter.question_id}}.cpp
+g++ -o submission submission_{{cookiecutter.question_id}}.cpp
 ./submission
