@@ -37,4 +37,5 @@ allows you to simply copy paste an example test case from your problem statement
 
 Finally, `validate.sh` will compile the **C++** program, and will run it, allowing you to interactively test it.
 Similarly, `validate_auto.sh` will compile the **C++** program, run it while feeding `input.txt` to standard input, and will print the output to the screen.
-It will also `git diff` it with the original output
+It will also ouput it to `produced_output.txt`
+
