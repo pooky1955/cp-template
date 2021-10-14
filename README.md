@@ -4,6 +4,15 @@ This repository is a cookiecutter template that you can use locally with
 ```sh
 cookiecutter gh:pooky1955/cp-template
 ```
+It will create a folder for you to start working on a C++ competitive programming problem.
+
+## Motivation
+I wanted to get started doing CP (competitive programming), especially in CodeForces,
+  and didn't like the interface from codeforces to code it.
+  I wanted to create an automatized way to create a quick c++ playground where I could paste 
+  the input test cases, the output cases, and it will automatically validate it.
+  This cookiecutter template can be used for CodeForces, Google Kickstart problems, Leetcode, HackerRank, and pretty much everything since it is flexible.
+
 ## Features
 - Checks submissions against custom test case using `validate_auto.sh`
 - Auto-generates boilerplate code for **C++** (view below)
